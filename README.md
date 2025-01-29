@@ -21,6 +21,12 @@ This tool is useful for **forensics**, **CTF challenges**, or any situation wher
 - **Wordlist** text files for passphrase brute-forcing.
 - **Images** in `.jpg` or `.jpeg` format.
 
+## Third-Party Tools usage.
+
+This project utilizes [Steghide](https://github.com/Steghide/steghide) for extracting hidden data from files. 
+
+Steghide is a powerful open-source tool that facilitates steganography, allowing the extraction of embedded data from files. We credit Steghide for enabling this functionality in the project.
+
 ## Installation
 
 ### 1. Clone or Download the Repository
@@ -46,7 +52,8 @@ Alternatively, you can download the repository as a ZIP file from [WinStegnoBrut
 
 ### 4. Install Python 3.x
 
-If you don't have Python 3.x installed, download and install it from [python.org](https://www.python.org/downloads/). Ensure that Python is added to the system PATH during installation.
+If you don't have Python 3.x installed, download and install it from [python.org](https://www.python.org/downloads/).
+Ensure that Python is added to the system PATH during installation.
 
 ### 5. Install Dependencies (Optional)
 
@@ -62,7 +69,7 @@ pip install -r requirements.txt
 1. Open a terminal or command prompt and navigate to the project directory.
 2. Run the following command:
    ```bash
-   python stegnobrute.py
+   .\run.bat
    ```
 
 ### 2. Tool Instructions
