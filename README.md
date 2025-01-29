@@ -38,12 +38,12 @@ To clone via Git:
 git clone https://github.com/Roger-Rached-ozz961/WinStegnoBrute.git
 ```
 
-Alternatively, you can download the repository as a ZIP file from [WinStegnoBrute](https://github.com/Roger-Rached-ozz961/WinStegnoBrute).
+OR Clone the ZIP file.
 
 ### 2. Download and Set Up **steghide**
 
 1. Download the Windows version of **steghide** from [here](http://steghide.sourceforge.net/).
-2. Place `steghide.exe` in the `steghide` folder inside your project directory.
+2. Place the `steghide` folder inside your project directory.
 
 ### 3. Organize Your Files
 
